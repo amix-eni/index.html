@@ -2,7 +2,7 @@ from flask import Flask, render_template, jsonify
 import random
 if __name__ == "__main__":
     app.run(debug=True)
-
+app = Flask(__name__)
 
 # A set of words that rhyme with "render"
 RHYME_WORDS = [
